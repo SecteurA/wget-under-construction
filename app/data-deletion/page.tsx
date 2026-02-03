@@ -17,18 +17,87 @@ export default function DataDeletionPage() {
       </header>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">How to Request Deletion</h2>
+        <h2 className="text-xl font-semibold">How to Request Data Deletion</h2>
         <p>
-          To request deletion of your data associated with WGET, email us at
-          contact@wget.ma.
+          If you wish to delete your personal data associated with the WGET application,
+          you can submit a deletion request by following these steps:
         </p>
-        <p>Please include your WhatsApp phone number and a clear deletion request subject.</p>
-        <p>We will process your request within 30 days.</p>
       </section>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">Contact</h2>
-        <p>Email: contact@wget.ma</p>
+        <h2 className="text-xl font-semibold">Step 1: Send an Email</h2>
+        <p>
+          Send an email to:{' '}
+          <a className="text-blue-600 underline hover:text-blue-800" href="mailto:contact@wget.ma">
+            contact@wget.ma
+          </a>
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl font-semibold">Step 2: Include Required Information</h2>
+        <p>In your email, please include the following information:</p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            <strong>Subject:</strong> &quot;Data Deletion Request&quot; (use this exact
+            subject line)
+          </li>
+          <li>
+            <strong>WhatsApp Phone Number:</strong> The phone number associated with your
+            WGET account (include country code)
+          </li>
+          <li>
+            <strong>Confirmation:</strong> A statement confirming that you want to delete
+            all your data from WGET
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl font-semibold">What Happens Next</h2>
+        <p>
+          Once we receive your data deletion request:
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>We will verify your identity to ensure the security of your data.</li>
+          <li>
+            Your request will be processed within <strong>30 days</strong> of receipt.
+          </li>
+          <li>
+            All personal data associated with your WGET account will be permanently
+            deleted from our systems.
+          </li>
+          <li>
+            You will receive a confirmation email once the deletion is complete.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl font-semibold">What Data Will Be Deleted</h2>
+        <p>
+          The following data associated with your WGET account will be permanently removed:
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>Your WhatsApp phone number</li>
+          <li>Message content and message history</li>
+          <li>Message metadata (timestamps, delivery status)</li>
+          <li>Technical logs and usage data</li>
+          <li>Any other personal information we have collected</li>
+        </ul>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl font-semibold">Contact Information</h2>
+        <p>
+          If you have any questions about the data deletion process, please contact us:
+        </p>
+        <p className="mt-2">
+          <strong>Email:</strong>{' '}
+          <a className="text-blue-600 underline hover:text-blue-800" href="mailto:contact@wget.ma">
+            contact@wget.ma
+          </a>
+        </p>
       </section>
     </main>
   );

@@ -40,8 +40,10 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">How We Use Data</h2>
+        <h2 className="text-xl font-semibold">How We Use Your Data</h2>
+        <p>We use your information to:</p>
         <ul className="list-disc space-y-2 pl-5">
+          <li>Communicate with users through WhatsApp messages.</li>
           <li>Provide customer support and respond to inquiries.</li>
           <li>Send notifications and transactional messages you request.</li>
           <li>Maintain service reliability, security, and performance.</li>
@@ -49,43 +51,70 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">Sharing</h2>
-        <ul className="list-disc space-y-2 pl-5">
-          <li>We use Meta/WhatsApp as a service provider to deliver messages.</li>
-          <li>We do not sell your personal data.</li>
-        </ul>
-      </section>
-
-      <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">Retention</h2>
+        <h2 className="text-xl font-semibold">Data Sharing</h2>
         <p>
-          We keep data only as long as necessary to provide the service and comply with
-          legal obligations. You can request deletion at any time.
+          We share your information with Meta/WhatsApp, which is our service provider
+          for delivering WhatsApp messages through the WhatsApp Business API.
+        </p>
+        <p className="mt-2">
+          <strong>We do not sell your personal data to any third parties.</strong>
         </p>
       </section>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">User Rights</h2>
+        <h2 className="text-xl font-semibold">Data Retention</h2>
         <p>
-          Depending on your location, you may have the right to access, correct, or
-          delete your data. To make a request, contact us at contact@wget.ma.
+          We retain your data only for as long as necessary to provide the WGET service
+          and comply with legal obligations. Data retention is limited to the minimum
+          period required for these purposes.
+        </p>
+        <p className="mt-2">
+          You can request deletion of your data at any time by following the
+          instructions on our Data Deletion page.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl font-semibold">Your Rights</h2>
+        <p>
+          You have the right to:
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li><strong>Access</strong> your personal data we hold.</li>
+          <li><strong>Rectify</strong> any inaccurate or incomplete data.</li>
+          <li><strong>Delete</strong> your data (see Data Deletion section below).</li>
+        </ul>
+        <p className="mt-2">
+          To exercise any of these rights, please contact us at contact@wget.ma.
         </p>
       </section>
 
       <section className="mt-8 space-y-3">
         <h2 className="text-xl font-semibold">Data Deletion</h2>
         <p>
-          For detailed instructions, visit{' '}
-          <a className="underline" href="https://wget.ma/data-deletion">
-            https://wget.ma/data-deletion
+          You have the right to request deletion of all your data associated with WGET.
+        </p>
+        <p className="mt-2">
+          For detailed instructions on how to request data deletion, please visit our{' '}
+          <a className="text-blue-600 underline hover:text-blue-800" href="/data-deletion">
+            Data Deletion page
           </a>
           .
         </p>
       </section>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">Contact</h2>
-        <p>Email: contact@wget.ma</p>
+        <h2 className="text-xl font-semibold">Contact Information</h2>
+        <p>
+          If you have any questions about this Privacy Policy or wish to exercise your
+          rights, please contact us:
+        </p>
+        <p className="mt-2">
+          <strong>Email:</strong>{' '}
+          <a className="text-blue-600 underline hover:text-blue-800" href="mailto:contact@wget.ma">
+            contact@wget.ma
+          </a>
+        </p>
       </section>
     </main>
   );
